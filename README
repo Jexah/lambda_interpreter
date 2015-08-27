@@ -23,7 +23,23 @@ What tasks did you complete?
 
 Did you get stuck, or couldn't work something out?
 
-  It was exceedingly difficult to understand the code, as 
+  It was exceedingly difficult to understand the code, as it was my first time
+  looking at the code base, first time looking at a Haskell project, and first
+  time implementing a type checker.
+
+  Part 1  (implementation of Boolean and Natural operations) was fairly
+  straight forward after beginning to understand the code base. `If` statements
+  required a different approach but were quickly implemented.
+
+  Part 2 (type checking) was straight forward enough, again, after staring at 
+  the code base for a while. Type checking for pairs was more difficult.
+
+  Part 3 (Implementation of pairs, fst, and snd) required a novel 
+  implementation in the context of the original code base, and so required 
+  a solid understanding of the original code base. I implemented the pair 
+  function as a 'constructor' for the pair type, where as another approach 
+  would have been to modify the parser to allow ad-hoc creation of pairs 
+  using infix or prefix operators, instead of a function.
 
 
 -------------------------------------------------------------------------------
